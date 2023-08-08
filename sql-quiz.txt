@@ -1,0 +1,26 @@
+You are working for online bookstore called "BookMart." The company wants to track its customers, books, and orders in a relational database. 
+
+Each customer should have first name, last name, email, and phone. Each book should have a title, author, genre, and Price.
+Each order should have order date and link to the cusotmer who ordered the book and which book he ordered. 
+
+Your task is to write SQL scripts to create the database, tables, insert sample data, and write specific queries as mentioned.
+
+ SQL Files Required to deliver:
+
+1. create_bookmart_database.sql: This file should include SQL statements to create the database and required tables.
+If the database exists, delete it and re create it.
+2. insert_sample_data.sql: This file should include SQL statements to insert sample data into the tables. 
+Each table should have at least 5 sample rows.
+3. query_bookmart_database.sql: This file should include the following SQL queries:
+
+
+ 1. Write an SQL query to retrieve the first and last names of all customers.
+ 2. Write an SQL query to fetch the titles and authors of all books.
+ 3. Write an SQL query to find the total number of orders placed.
+ 4. Write an SQL query to get the email and phone number of the customer with CustomerID 2.
+ 5. Write an SQL query to get all orders along with the corresponding customer's first name and the book title.
+ 6. Write an SQL query to find the total sales amount (sum of all book prices) for each order.
+ 7. Write an SQL query to retrieve all customers who haven't placed any orders.
+ 8. Write an SQL query to get all book titles and their corresponding genres for books that have been ordered.
+ 9. Write an SQL query to get the titles of books that have not been ordered.
+
